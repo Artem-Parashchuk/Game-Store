@@ -1,0 +1,18 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.title_wrapper {
+
+}
+.header_title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.cart_wrapper {
+
+}
