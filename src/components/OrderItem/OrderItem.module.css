@@ -1,0 +1,23 @@
+.order_item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.img_wrapper {
+  max-width: 200px;
+  margin-right: 30px;
+}
+.order_title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.order_price {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+.delete_icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
