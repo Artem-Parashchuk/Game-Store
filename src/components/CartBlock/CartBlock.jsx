@@ -6,11 +6,18 @@ import { totalPrice } from "../../assets/utils";
 import { CartMenu } from "../CartMenu/CartMenu";
 import { useState } from "react";
 import { ItemInCart } from "../ItemInCart/ItemInCart";
+import { useNavigate } from "react-router-dom";
 
 export const CartBlock = () => {
   const [isCartVisible, setIsCartVisible] = useState(false);
   const games = useSelector((state) => state.cart.gamesInCart);
   const resTotalPrice = totalPrice(games);
+  const navigate = useNavigate()
+
+const handleClick = () => {
+  setIsCartVisible(false)
+  navigate('/order')
+}
 
   return (
     <div className={s.cart}>
@@ -30,7 +37,7 @@ export const CartBlock = () => {
       {isCartVisible && (
         <CartMenu
           items={games}
-          onClick={() => null}
+          onClick={handleClick}
         />
       )}
     </div>

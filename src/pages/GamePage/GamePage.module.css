@@ -1,0 +1,38 @@
+iframe {
+  border: transparent;
+}
+.game_title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.game_content {
+  display: flex;
+}
+.left_side {
+  width: 70%;
+}
+.right_side{
+  width: 30%;
+  font-size: 18px;
+}
+.img_wrapper {
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+.game_description {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.game_subtitle {
+  margin-top: 10px;
+  color: rgb(80, 82, 84);
+  font-weight: 700;
+}
+.genre_list {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.game_buy {
+  margin-top: 15px;
+}
