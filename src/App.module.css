@@ -1,3 +1,6 @@
+.header {
+ box-shadow: 0px -3px 14px 0px gold
+}
 .app {
   max-width: 1180px;
   margin: 0 auto;
