@@ -1,7 +1,12 @@
 .btns {
   margin-top: 20px;
+  display: flex;
+  gap: 15px;
 }
 .btn_order {
+  font-size: 14px;
+  width: 100%;
+  max-width: 205px;
   background-color: rgb(85, 88, 237);
   padding: 5px 15px;
   border-radius: 10px;
@@ -11,7 +16,9 @@
   background-color: rgb(72, 74, 200);
 }
 .btn_remove {
-  margin-left: 25px;
+  font-size: 14px;
+  max-width: 205px;
+  width: 100%;
   background-color: red;
   padding: 5px 15px;
   border-radius: 10px;
@@ -19,4 +26,12 @@
 }
 .btn_remove:hover {
   background-color: rgb(212, 3, 3);
+}
+@media screen and (min-width: 320px) and (max-width: 470px) {
+  .btns {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 768px) {
+  
 }

@@ -24,7 +24,7 @@ export const CartMenu = ({ items, onClick }) => {
         <div className={s.cart_menu_arrange}>
           <div className={s.cart_menu_total}>
             <span>Загалом:</span>
-            <span>{totalPrice(items)} UAH</span>
+            <span >{totalPrice(items)} UAH</span>
           </div>
           <Button
             type="primary"

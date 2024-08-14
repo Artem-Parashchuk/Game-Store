@@ -48,7 +48,7 @@ export const GAMES = [
     image: '/game-covers/assassins_creed_valhalla.png',
     title: 'Assassin’s Creed Valhalla',
     genres: ['Паркур', 'РПГ', 'Открытый мир'],
-    video: 'https://www.youtube.com/embed/ssrNcwxALS4',
+    video: "https://www.youtube.com/embed/1-l29HlKkXU",
     price: 2863,
     id: 6,
     description: "Assassin’s Creed Valhalla — мультиплатформенна комп'ютерна гра в жанрі action/RPG, розроблена студією Ubisoft Montreal під видавництвом компанії Ubisoft. Це дванадцята гра в серії ігор Assassin’s Creed."
@@ -61,5 +61,14 @@ export const GAMES = [
     price: 2921,
     id: 7,
     description: "The Witcher 3: Wild Hunt — комп'ютерна гра у стилі action/RPG, розроблена польською компанією CD Projekt RED за мотивами серії романів «Відьмак» письменника Анджея Сапковського. Гра продовжує «Відьмак» і «Відьмак 2: Вбивці королів» та завершує трилогію відеоігор про відьмака."
+  },
+  {
+    image: '/game-covers/red-ded-2.jpg',
+    title: 'Red Dead Redemption 2 ',
+    genres: ['Паркур', 'РПГ', 'Открытый мир'],
+    video: 'https://www.youtube.com/watch?v=gmA6MrX81z4',
+    price: 1148,
+    id: 8,
+    description: "Red Dead Redemption 2 — це пригодницька відеогра, розроблена і видана Rockstar Games. Це третя частина в серії Red Dead, і приквел до гри Red Dead Redemption. Сюжет гри розгортається в 1899 році у вигаданій версії середнього заходу і півдня Сполучених Штатів. "
   },
 ]

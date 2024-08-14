@@ -23,9 +23,9 @@ export const OrderItem = ({ game }) => {
         <span>{game.title}</span>
       </div>
       <div className={s.order_price}>
-        <span>{game.price}</span> UAH
+        <span>{game.price} </span> UAH
         <TiDeleteOutline
-          size={25}
+          // size={25}
           className={s.delete_icon}
           onClick={handleClick}
         />
