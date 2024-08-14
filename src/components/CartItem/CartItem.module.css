@@ -1,10 +1,12 @@
 .cart_item {
 display: flex;
-justify-content: space-between;
 }
 .title_game {
-
 }
 .price_game {
-
+  margin-left: auto;
+}
+.delete_icon {
+  margin-left: 10px;
+  cursor: pointer;
 }

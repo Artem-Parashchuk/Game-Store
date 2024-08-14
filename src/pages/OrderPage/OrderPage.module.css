@@ -1,0 +1,22 @@
+.btns {
+  margin-top: 20px;
+}
+.btn_order {
+  background-color: rgb(85, 88, 237);
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.btn_order:hover {
+  background-color: rgb(72, 74, 200);
+}
+.btn_remove {
+  margin-left: 25px;
+  background-color: red;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.btn_remove:hover {
+  background-color: rgb(212, 3, 3);
+}
